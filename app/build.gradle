@@ -27,9 +27,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'com.amap.api:3dmap:5.0.0'
     implementation 'com.amap.api:location:3.3.0'
     implementation 'com.amap.api:search:5.0.0'
+    implementation files('libs/3dmap-6.3.1.jar')
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 repositories {

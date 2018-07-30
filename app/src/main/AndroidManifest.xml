@@ -55,6 +55,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.amap.api.maps.offlinemap.OfflineMapActivity"
+            android:screenOrientation="portrait"  />
+
         <service android:name="com.amap.api.location.APSService"></service>
     </application>
 
